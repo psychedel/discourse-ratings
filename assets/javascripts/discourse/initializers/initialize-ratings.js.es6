@@ -75,11 +75,11 @@ export default {
           }
 
           if (topicFirstPost && allowedRatingTypes.length) {
-            allowedRatingTypes.forEach((t) => {
-              if (types.indexOf(t) === -1) {
-                types.push(t);
-              }
-            });
+//             allowedRatingTypes.forEach((t) => {
+//               if (types.indexOf(t) === -1) {
+//                 types.push(t);
+//               }
+//             });
           } else if (userCanRate && userCanRate.length) {
             userCanRate.forEach((t) => {
               if (types.indexOf(t) === -1) {
